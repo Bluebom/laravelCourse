@@ -2,17 +2,7 @@
 @section('content')
 
     <h1>contact Page</h1>
-    <p>Mentira po</p>
-
-    @if (count($people))
-
-    <ul>
-        @foreach($people as $person)
-        <li>{{$person}}</li>
-
-        @endforeach
-    </ul>
-    @endif
+    <p>{{$id}} {{$name}} {{$password}}</p>
 
 @endsection
 
